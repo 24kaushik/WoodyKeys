@@ -17,12 +17,10 @@ body {
 
 #header {
   height: 85px;
-  /* background-color: burlywood; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1.3rem 5rem;
-  /* border-bottom: 3px solid #000; */
   position: fixed;
   width: 100vw;
   top: 0;
@@ -63,7 +61,6 @@ body {
   min-height: 600px;
   max-height: 720px;
   margin-top: 85px;
-  /* background-color: rosybrown; */
   display: flex;
   overflow: hidden;
 }
@@ -163,7 +160,6 @@ body {
 .card {
   height: 20rem;
   width: 14rem;
-  /* background: #ad8282; */
   border: 3px solid #162d62;
   border-radius: 5px;
   display: flex;
@@ -314,13 +310,11 @@ form {
 }
 
 .products>ul>li>a {
-  /* text-decoration: none; */
   color: #000;
   transition: all .1s;
 }
 
 .products>ul>li>a:hover {
-  /* text-decoration: none; */
   color: #162d62;
 }
 
